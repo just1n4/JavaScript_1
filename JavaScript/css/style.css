@@ -1,0 +1,7 @@
+.btn-two:hover{
+  transition: 0.05s;
+  background-color: #D90429;
+  transform: rotateZ(-10deg);
+  box-shadow: 0 0 30px -10px #D90429;
+}
+
