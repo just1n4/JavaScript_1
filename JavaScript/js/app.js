@@ -42,6 +42,12 @@ const images_array = ['car1.jpg', 'car2.jpg', 'car3.jpg', 'car4.jpg', 'car5.jpg'
     // Sumaišomi paveikslėliai esantys masyve.
     const selectedImages = [...images_array].sort(() => Math.random() - 0.5);
 
+  //   const selectedImages = [...images_array];
+  //   for (let i = selectedImages.length - 1; i > 0; i--) {
+  //     const j = Math.floor(Math.random() * (i + 1));
+  //     [selectedImages[i], selectedImages[j]] = [selectedImages[j], selectedImages[i]];
+  // }
+
     const myList = document.getElementById("myList");
     // Išvalome turinį, kad nepridėtų daug kartų tų pačių paveikslėlių.
     myList.innerHTML = ""; 
